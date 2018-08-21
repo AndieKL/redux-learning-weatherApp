@@ -15,7 +15,7 @@ class WeatherList extends Component {
 
 		return (
 			<tr key={name}>
-				<td><GoogleMap lon={lon} lat={lat} /></td>
+				<td><h2>{name}</h2></td>
 				<td><Chart data={temps} color="blue" units="C" /></td>
 				<td><Chart data={press} color="red" units="hPa" /></td>
 				<td><Chart data={humid} color="black" units="%" /></td>
